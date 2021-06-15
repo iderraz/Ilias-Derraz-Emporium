@@ -1,16 +1,76 @@
 #maNavBarre {
+    // position:fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
+
     h1 {
         font-family: 'Roboto', sans-serif;
+        font-size: 250%
     };
     div>a{
+        text-decoration: none;
         font-family: 'Roboto', sans-serif;
+        color: black;
+        // margin-right: 35px;
+    }
+    div{
+
+        #boutton-blanc{
+            height: 15px;
+            width: 15px;
+            border-radius: 15%;
+        };
+        #boutton-noir{
+            height: 15px;
+            width: 15px;
+            background-color: black;
+            border-radius: 15%;
+        }
+
+        #connexion{
+            background-color: grey;
+            color: white;
+        }
+    }
+}
+
+
+@media (min-width:320px) and (max-width:640px){
+
+#maNavBarre{
+    width: 100%;
+    
+
+    h1{
+        font-size: 110%;
+        width: 100%;
+        text-align: center;
+        
     }
 
 
+    div>a{
+        width: 100%;
+        font-size: 5%;
+        text-align: center;
+        
+    }
 
-   
+
+    #boutton-blanc{
+        height: 3%;
+        width: 3%;
+        
+    };
+    #boutton-noir{
+        height: 3%;
+        width: 3%;
+
+    }
+    #connexion{
+        font-size: 10%
+    }
 }
+};
