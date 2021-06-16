@@ -1,0 +1,228 @@
+footer{
+    background-color: #1E314D;
+    margin-top: 10px;
+    #blue-footer{
+        height: 250px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20%;
+        margin-right: 20%;
+        .div-footer{
+            flex-direction: column;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 31%;
+
+            h2{
+                color: white;
+                text-align: center;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            };
+            p{
+                text-align: center;
+                width: 100%;
+            };
+        };
+
+        #about{
+            width: 31%;
+            p{
+                margin: 0;
+                color: grey;
+            };
+        };
+
+        #recents-post{
+            p{
+                margin: 1%;
+                color: white;
+            };
+
+        };
+
+        #tag-cloud{
+            width: 31%;
+
+
+            h2{
+                color: white;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            };
+            .boutton-footer{
+
+
+                .btn-f{
+                    text-align: center;
+                    background-color: #1E314D;
+                    color:white ;
+                    padding: 2%;
+                    border: solid 1px grey;
+                    margin: 1%;
+                };
+            };
+        };
+
+
+    };
+    #black-footer{
+        background: black;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        p{
+            color: white;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        };
+    };
+};
+
+
+
+@media (min-width:320px) and (max-width:640px){
+
+    footer{
+        #blue-footer{
+
+
+
+            .div-footer{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 31%;
+
+
+                p{
+                    font-size: 90%;
+                    
+                };
+            };
+    
+            #about{
+                width: 31%;
+                margin: 10%;
+                width: 35%;
+                font-size: 60%;
+                p{
+
+                    color: grey;
+                    width: 255%;
+
+                };
+            };
+    
+            #recents-post{
+                margin: 7%;
+                width: 31%;
+                font-size: 60%;
+                p{
+                    margin: 1%;
+                    color: white;
+                };
+            };
+    
+            #tag-cloud{
+                margin: 7%;
+                width: 31%;
+                font-size: 60%;
+                margin-top: 12%;
+    
+    
+                h2{
+                    color: white;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                };
+                .boutton-footer{
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    .btn-f{
+                        padding: 4%;    
+                        margin: 1%;
+                        width: 60%;
+                        font-size: 30%;
+                    };
+                };
+            };
+        };
+    };
+};
+
+
+
+
+
+@media (min-width:641px) and (max-width:940px){
+
+    footer{
+        #blue-footer{
+
+
+
+            .div-footer{
+                flex-direction: column;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 31%;
+    
+
+                p{
+                    font-size: 50%;
+
+                };
+            };
+    
+            #about{
+                width: 31%;
+                margin: 15%;
+                width: 31%;
+                font-size: 110%;
+                p{
+                    margin: 0;
+                    color: grey;
+                    width: 255%;
+                    font-size:80%;
+                };
+            };
+    
+            #recents-post{
+                margin: 7%;
+                width: 31%;
+                font-size: 110%;
+                p{
+                    margin: 1%;
+                    color: white;
+                    font-size: 80%;
+                };
+            };
+    
+            #tag-cloud{
+                margin: 7%;
+                width: 31%;
+                font-size: 110%;
+                margin-top: 12%;
+    
+    
+                h2{
+                    color: white;
+                    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                };
+                .boutton-footer{
+                    display: flex;
+                    justify-content: center;
+                    align-content: center;
+                    .btn-f{
+                        padding: 4%;    
+                        margin: 1%;
+                        width: 90%;
+                        font-size: 70%;
+                    };
+                };
+            };
+        };
+    };
+};

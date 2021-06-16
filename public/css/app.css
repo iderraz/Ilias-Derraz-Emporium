@@ -6118,6 +6118,11 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
 #maNavBarre {
   display: flex;
   align-items: center;
@@ -6574,6 +6579,178 @@ readers do not read off random characters that represent icons */
   #section-6 .div-section-62 {
     height: 300px;
     width: 100%;
+  }
+}
+footer {
+  background-color: #1E314D;
+  margin-top: 10px;
+}
+footer #blue-footer {
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+footer #blue-footer .div-footer {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 31%;
+}
+footer #blue-footer .div-footer h2 {
+  color: white;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer #blue-footer .div-footer p {
+  text-align: center;
+  width: 100%;
+}
+footer #blue-footer #about {
+  width: 31%;
+}
+footer #blue-footer #about p {
+  margin: 0;
+  color: grey;
+}
+footer #blue-footer #recents-post p {
+  margin: 1%;
+  color: white;
+}
+footer #blue-footer #tag-cloud {
+  width: 31%;
+}
+footer #blue-footer #tag-cloud h2 {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+footer #blue-footer #tag-cloud .boutton-footer .btn-f {
+  text-align: center;
+  background-color: #1E314D;
+  color: white;
+  padding: 2%;
+  border: solid 1px grey;
+  margin: 1%;
+}
+footer #black-footer {
+  background: black;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+}
+footer #black-footer p {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  footer #blue-footer .div-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+  }
+  footer #blue-footer .div-footer p {
+    font-size: 90%;
+  }
+  footer #blue-footer #about {
+    width: 31%;
+    margin: 10%;
+    width: 35%;
+    font-size: 60%;
+  }
+  footer #blue-footer #about p {
+    color: grey;
+    width: 255%;
+  }
+  footer #blue-footer #recents-post {
+    margin: 7%;
+    width: 31%;
+    font-size: 60%;
+  }
+  footer #blue-footer #recents-post p {
+    margin: 1%;
+    color: white;
+  }
+  footer #blue-footer #tag-cloud {
+    margin: 7%;
+    width: 31%;
+    font-size: 60%;
+    margin-top: 12%;
+  }
+  footer #blue-footer #tag-cloud h2 {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  footer #blue-footer #tag-cloud .boutton-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  footer #blue-footer #tag-cloud .boutton-footer .btn-f {
+    padding: 4%;
+    margin: 1%;
+    width: 60%;
+    font-size: 30%;
+  }
+}
+@media (min-width: 641px) and (max-width: 940px) {
+  footer #blue-footer .div-footer {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 31%;
+  }
+  footer #blue-footer .div-footer p {
+    font-size: 50%;
+  }
+  footer #blue-footer #about {
+    width: 31%;
+    margin: 15%;
+    width: 31%;
+    font-size: 110%;
+  }
+  footer #blue-footer #about p {
+    margin: 0;
+    color: grey;
+    width: 255%;
+    font-size: 80%;
+  }
+  footer #blue-footer #recents-post {
+    margin: 7%;
+    width: 31%;
+    font-size: 110%;
+  }
+  footer #blue-footer #recents-post p {
+    margin: 1%;
+    color: white;
+    font-size: 80%;
+  }
+  footer #blue-footer #tag-cloud {
+    margin: 7%;
+    width: 31%;
+    font-size: 110%;
+    margin-top: 12%;
+  }
+  footer #blue-footer #tag-cloud h2 {
+    color: white;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  footer #blue-footer #tag-cloud .boutton-footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  footer #blue-footer #tag-cloud .boutton-footer .btn-f {
+    padding: 4%;
+    margin: 1%;
+    width: 90%;
+    font-size: 70%;
   }
 }
 
