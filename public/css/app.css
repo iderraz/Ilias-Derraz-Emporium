@@ -6483,5 +6483,98 @@ readers do not read off random characters that represent icons */
     width: 25%;
   }
 }
+#section-6 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#section-6 .div-section-6 {
+  height: 350px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F3F3F3;
+  width: 31%;
+}
+#section-6 .div-section-6 i {
+  font-size: 150%;
+}
+#section-6 .div-section-6 h1 {
+  text-align: center;
+  font-size: 150%;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#section-6 .div-section-6 p {
+  text-align: center;
+  color: grey;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+}
+#section-6 .div-section-6 button {
+  text-align: center;
+  background-color: #1E314D;
+  color: white;
+  padding: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#section-6 .div-section-62 {
+  height: 350px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #df4340;
+  width: 31%;
+}
+#section-6 .div-section-62 i {
+  font-size: 150%;
+}
+#section-6 .div-section-62 h1 {
+  text-align: center;
+  font-size: 150%;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#section-6 .div-section-62 p {
+  text-align: center;
+  color: #5D656C;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 80%;
+}
+#section-6 .div-section-62 button {
+  text-align: center;
+  color: #1E314D;
+  padding: 1%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  #section-6 {
+    flex-direction: column;
+  }
+  #section-6 .div-section-6 {
+    height: 300px;
+    width: 100%;
+  }
+  #section-6 .div-section-62 {
+    height: 300px;
+    width: 100%;
+  }
+}
+@media (min-width: 641px) and (max-width: 940px) {
+  #section-6 {
+    flex-direction: column;
+  }
+  #section-6 .div-section-6 {
+    height: 300px;
+    width: 100%;
+  }
+  #section-6 .div-section-62 {
+    height: 300px;
+    width: 100%;
+  }
+}
 
 /*# sourceMappingURL=app.css.map */
