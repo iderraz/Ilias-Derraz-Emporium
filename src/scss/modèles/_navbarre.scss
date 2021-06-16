@@ -3,11 +3,13 @@ body{
     padding: 0;
 }
 #maNavBarre {
-    // position:fixed;
+    position:fixed;
     display: flex;
     align-items: center;
     flex-direction: column;
     width: 100%;
+    top: 0;
+
 
     h1 {
         font-family: 'Roboto', sans-serif;
@@ -17,7 +19,8 @@ body{
         text-decoration: none;
         font-family: 'Roboto', sans-serif;
         color: black;
-        // margin-right: 35px;
+        padding: 15px;
+
     }
     div{
 
@@ -55,12 +58,13 @@ body{
     }
 
 
+
     div>a{
         width: 100%;
         font-size: 5%;
-        text-align: center;
-        
-    }
+        text-align: center;  
+        padding: 0;
+    };
 
 
     #boutton-blanc{
@@ -77,4 +81,18 @@ body{
         font-size: 10%
     }
 }
+};
+
+
+
+
+@media (min-width:641px) and (max-width:940px){
+
+    #maNavBarre{
+        #ligne-btn{
+            a{
+                font-size: 70%;
+            }
+        };
+    };
 };
