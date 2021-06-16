@@ -6316,7 +6316,6 @@ readers do not read off random characters that represent icons */
   }
 }
 #gallerie {
-  border: solid red 2px;
   flex-direction: column;
 }
 #gallerie #recents {
@@ -6336,12 +6335,123 @@ readers do not read off random characters that represent icons */
   height: 25vh;
   width: 90%;
 }
-#gallerie .div-gall .div-img-gall p {
-  max-width: 35%;
-  color: black;
+#gallerie .div-gall .div-img-gall .para-gallS {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-#gallerie .div-gall .div-img-gall .rouge-gall {
+#gallerie .div-gall .div-img-gall .rouge-gallS {
   color: red;
+  text-align: center;
+}
+#gallerie .div-gall .div-img-gall .sale-border-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#gallerie .div-gall .div-img-gall .sale-border-div .redborder {
+  border-radius: 50em/50em;
+  background-color: red;
+  height: 40px;
+  width: 65px;
+  text-align: center;
+  padding-top: 10%;
+  margin-right: 4%;
+  color: white;
+}
+#gallerie .div-gall .div-img-gall .sale-border-div .price-div p {
+  max-width: 25%;
+  color: black;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#gallerie .div-gall .div-img-gall .sale-border-div .price-div .rouge-gall {
+  color: red;
+}
+#gallerie .div-gall .div-img-gall .sale-border-div .price-div .textBarre {
+  text-decoration: line-through;
+  color: grey;
+}
+
+@media (min-width: 320px) and (max-width: 640px) {
+  #gallerie {
+    flex-direction: column;
+  }
+  #gallerie .div-gall .div-img-gall {
+    width: 15%;
+    margin: 2%;
+  }
+  #gallerie .div-gall .div-img-gall div img {
+    height: 120%;
+    width: 120%;
+  }
+  #gallerie .div-gall .div-img-gall .para-gallS {
+    font-size: 75%;
+  }
+  #gallerie .div-gall .div-img-gall .rouge-gallS {
+    font-size: 75%;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .redborder {
+    display: none;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div p {
+    font-size: 55%;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div .rouge-gall {
+    color: red;
+    font-size: 55%;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div .textBarre {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 55%;
+  }
+}
+@media (min-width: 641px) and (max-width: 960px) {
+  #gallerie {
+    flex-direction: column;
+  }
+  #gallerie .div-gall .div-img-gall {
+    width: 15%;
+    margin: 2%;
+  }
+  #gallerie .div-gall .div-img-gall div img {
+    height: 120%;
+    width: 120%;
+  }
+  #gallerie .div-gall .div-img-gall .para-gallS {
+    font-size: 75%;
+  }
+  #gallerie .div-gall .div-img-gall .rouge-gallS {
+    font-size: 75%;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .redborder {
+    display: none;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div p {
+    font-size: 55%;
+    color: black;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div .rouge-gall {
+    color: red;
+    font-size: 55%;
+  }
+  #gallerie .div-gall .div-img-gall .sale-border-div .price-div .textBarre {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 55%;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
