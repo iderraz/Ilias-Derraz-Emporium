@@ -1,4 +1,4 @@
-import {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide} from './mesvar.js';
+import {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container} from './mesvar.js';
 
 
 //Mon DarkSide//
@@ -50,4 +50,17 @@ window.addEventListener("scroll", () =>{
     };
 });
 //mon Scroll changement//
+
+
+
+
+//inscription
+open.addEventListener("click", () =>{
+    modal_container.style.opacity = "1";
+});
+
+close.addEventListener("click", () =>{
+    modal_container.style.opacity = "0";
+});
+//inscription
 

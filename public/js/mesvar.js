@@ -12,6 +12,16 @@ let mesp =Array.from(document.getElementsByClassName("para-gall"));
 let mespp =Array.from(document.getElementsByClassName("para-gallS"));
 let recents = document.getElementById("recentsP");
 
+let open = document.getElementById("open");
+
+
+
+
+//mes bouttons  pour inscription
+let close = document.getElementById("close"); 
+let modal_container = document.getElementById("modal_container");
+let modal =document.getElementById("modal");
+//mes bouttons  pour inscription
 
 
 
@@ -22,4 +32,5 @@ let recents = document.getElementById("recentsP");
 
 
 
-export {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide};
+
+export {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container};
