@@ -6131,6 +6131,7 @@ body {
   width: 100%;
   top: 0;
   background-color: white;
+  height: 200px;
 }
 #maNavBarre h1 {
   font-family: "Roboto", sans-serif;
@@ -6200,7 +6201,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 125px;
+  padding-top: 195px;
 }
 #bg-section #shop-at {
   width: 55%;
@@ -6771,21 +6772,22 @@ footer #black-footer p {
   }
 }
 .modal-container {
-  top: 20%;
+  top: 18%;
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.3);
   position: fixed;
   opacity: 0;
+  height: 100vh;
 }
 
 .modal {
   background-color: #fff;
-  width: 400px;
+  height: 425px;
+  width: 600px;
   max-width: 100%;
   padding: 30px 50px;
   border-radius: 5px;
-  text-align: center;
   margin-left: 33%;
 }
 
@@ -6796,6 +6798,240 @@ footer #black-footer p {
 .modal p {
   font-size: 14;
   opacity: 0.7;
+}
+
+/*style de mon formulaire de connexion*/
+#emp7 {
+  display: flex;
+  justify-content: space-between;
+}
+#emp7 h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 210%;
+}
+#emp7 #close {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
+#mesbtn-pop {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+#mesbtn-pop button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 2%;
+  width: 25%;
+}
+
+#mes-input-formulaire {
+  flex-direction: column;
+}
+#mes-input-formulaire .petit-p {
+  color: grey;
+}
+#mes-input-formulaire p {
+  margin: 0;
+  padding: 0;
+}
+#mes-input-formulaire .mesp-form {
+  margin-top: 4%;
+  font-size: 135%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mes-input-formulaire .input-form {
+  margin: 0;
+  width: 95%;
+  padding: 2%;
+  border: grey 1px solid;
+}
+
+#check-box {
+  display: flex;
+  align-items: center;
+}
+#check-box input {
+  height: 15px;
+  width: 15px;
+}
+#check-box p {
+  font-size: 110%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#submit-btn button {
+  color: white;
+  background-color: #3E7CF9;
+  padding: 2%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 20%;
+  border-radius: 5px;
+}
+
+#reseaux-sociaux {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#reseaux-sociaux i {
+  font-size: 150%;
+  margin: 2%;
+}
+#reseaux-sociaux #fb {
+  color: #3E7CF9;
+}
+#reseaux-sociaux #snap {
+  color: yellow;
+}
+
+/*style de mon formulaire de connexion*/
+.modal-container2 {
+  top: 18%;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  position: fixed;
+  opacity: 0;
+  height: 100vh;
+}
+
+.modal2 {
+  background-color: #fff;
+  height: 550px;
+  width: 600px;
+  max-width: 100%;
+  padding: 30px 50px;
+  border-radius: 5px;
+  margin-left: 33%;
+}
+
+.modal2 h1 {
+  margin: 0;
+}
+
+.modal2 p {
+  font-size: 14;
+  opacity: 0.7;
+}
+
+/*style de mon formulaire d'inscription*/
+#emp72 {
+  display: flex;
+  justify-content: space-between;
+}
+#emp72 h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 210%;
+}
+#emp72 #closer {
+  height: 30px;
+  width: 30px;
+  color: white;
+  background-color: red;
+  text-align: center;
+}
+
+#mesbtn-pop2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 1%;
+}
+#mesbtn-pop2 button {
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  margin: 1%;
+  padding: 2%;
+  width: 25%;
+}
+
+#mes-input-formulaire2 {
+  flex-direction: column;
+}
+#mes-input-formulaire2 .petit-p {
+  color: grey;
+}
+#mes-input-formulaire2 p {
+  margin: 0;
+  padding: 0;
+}
+#mes-input-formulaire2 .mesp-form {
+  margin-top: 4%;
+  font-size: 135%;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+#mes-input-formulaire2 .input-form {
+  margin: 0;
+  width: 95%;
+  padding: 2%;
+  border: grey 1px solid;
+}
+
+#check-box2 {
+  display: flex;
+  align-items: center;
+  margin-top: 3%;
+  margin-bottom: 1%;
+  padding: 0;
+}
+#check-box2 input {
+  height: 15px;
+  width: 15px;
+}
+#check-box2 p {
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#check-box3 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3%;
+  padding: 0;
+}
+#check-box3 input {
+  height: 15px;
+  width: 15px;
+}
+#check-box3 p {
+  margin: 0;
+  padding: 0;
+  font-size: 110%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+#submit-btn2 button {
+  color: white;
+  background-color: #3E7CF9;
+  padding: 2%;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  width: 20%;
+  border-radius: 5px;
+}
+
+#reseaux-sociaux2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#reseaux-sociaux2 i {
+  font-size: 150%;
+  margin: 2%;
+}
+#reseaux-sociaux2 #fb2 {
+  color: #3E7CF9;
+}
+#reseaux-sociaux2 #snap2 {
+  color: yellow;
 }
 
 /*# sourceMappingURL=app.css.map */
