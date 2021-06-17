@@ -41,3 +41,13 @@ lightSide.addEventListener("click", () =>{
 });
 //mon LightSide
 
+//mon Scroll changement//
+window.addEventListener("scroll", () =>{
+    if(window.scrollY > 1){
+        maNav.classList.add('scroll');
+    }else {
+        maNav.classList.remove('scroll')
+    };
+});
+//mon Scroll changement//
+

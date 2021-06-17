@@ -9,6 +9,7 @@ body{
     flex-direction: column;
     width: 100%;
     top: 0;
+    background-color: white;
 
 
     h1 {
@@ -43,6 +44,11 @@ body{
     }
 }
 
+#maNavBarre.scroll{
+    flex-direction: row;
+    justify-content: center;
+};
+
 
 @media (min-width:320px) and (max-width:640px){
 
@@ -55,7 +61,7 @@ body{
         width: 100%;
         text-align: center;
         
-    }
+    };
 
 
 
