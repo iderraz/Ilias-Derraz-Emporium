@@ -6132,6 +6132,7 @@ body {
   top: 0;
   background-color: white;
   height: 200px;
+  z-index: 2;
 }
 #maNavBarre h1 {
   font-family: "Roboto", sans-serif;
@@ -6546,7 +6547,7 @@ body {
 }
 
 #sec .div-image {
-  min-width: 260px;
+  min-width: 320px;
   left: 0;
   text-align: center;
   font-size: 100px;
@@ -6561,7 +6562,7 @@ body {
 }
 
 .txtCarousel {
-  width: 260px;
+  width: 330px;
   font-size: 20px;
   color: black;
   font-family: "Poppins", sans-serif;
@@ -6570,7 +6571,7 @@ body {
 }
 
 .txtCarousel2 {
-  width: 260px;
+  width: 330px;
   font-size: 15px;
   color: #df4340;
   font-family: "Poppins", sans-serif;
@@ -6855,6 +6856,7 @@ footer #black-footer p {
   position: fixed;
   opacity: 0;
   height: 100vh;
+  z-index: -1;
 }
 
 .modal {
@@ -6976,6 +6978,7 @@ footer #black-footer p {
   position: fixed;
   opacity: 0;
   height: 100vh;
+  z-index: -1;
 }
 
 .modal2 {

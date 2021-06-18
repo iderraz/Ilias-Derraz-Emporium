@@ -85,7 +85,7 @@ let closer = document.getElementById("closer");
 
 inscription.addEventListener("click", () => {
     modal_container.style.opacity = "0";
-    modal_container.style.zIndex = "0";
+    modal_container.style.zIndex = "-1";
     monSecondPop.style.opacity = "1";
     monSecondPop.style.zIndex = "4";
 });
@@ -95,15 +95,60 @@ connexion3.addEventListener("click", () => {
     modal_container.style.opacity = "1";
     modal_container.style.zIndex = "4";
     monSecondPop.style.opacity = "0";
-    monSecondPop.style.zIndex = "0";
+    monSecondPop.style.zIndex = "-1";
     
 });
 
 
 closer.addEventListener("click", () =>{
     monSecondPop.style.opacity = "0";
-    monSecondPop.style.zIndex = "0";
+    monSecondPop.style.zIndex = "-1";
     maNav.style.backgroundColor = "white";
 })
 //inscription
+
+
+
+//mon carousel 
+let carouzel = document.getElementById("sec");
+console.log(carouzel);
+let boutton0 =document.getElementById("btn-0");
+let boutton1 =document.getElementById("btn-1");
+let boutton2 =document.getElementById("btn-2");
+let boutton3 =document.getElementById("btn-3");
+console.log(boutton0);
+console.log(boutton1);
+console.log(boutton2);
+console.log(boutton3);
+
+
+
+boutton1.addEventListener("click", () =>{
+    carouzel.style.transform = "translateX(-360px)";
+    carouzel.style.overflow = "visible";
+    carouzel.style.transition = "ease 1s";
+    console.log("test");
+});
+
+boutton2.addEventListener("click", () =>{
+    carouzel.style.transform = "translateX(-760px)";
+    carouzel.style.overflow = "visible";
+    carouzel.style.transition = "ease 1s";
+});
+
+boutton3.addEventListener("click", () =>{
+    carouzel.style.transform = "translateX(-1100px)";
+    carouzel.style.overflow = "visible";
+    carouzel.style.transition = "ease 1s";
+});
+
+boutton0.addEventListener("click", () =>{
+    carouzel.style.transform = "translateX(0px)";
+    carouzel.style.overflow = "visible";
+    carouzel.style.transition = "ease 1s";
+});
+// 
+
+
+
 
