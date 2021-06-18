@@ -6506,6 +6506,57 @@ body {
     width: 25%;
   }
 }
+#car {
+  width: 100%;
+  margin: 2%;
+  overflow: hidden;
+}
+
+#titreu {
+  width: 90%;
+  margin: 10px auto;
+  background: teal;
+  font-weight: bold;
+  color: white;
+}
+
+#sec {
+  width: 90%;
+  background-color: wheat;
+  margin: 10px auto;
+  display: flex;
+  justify-content: left;
+  overflow-x: auto;
+}
+
+#sec::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+#div-boule {
+  height: 50px;
+  text-align: center;
+}
+#div-boule .boule {
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin: 2%;
+}
+
+#sec .div-image {
+  min-width: 330px;
+  left: 0;
+  text-align: center;
+  padding-top: 60px;
+  font-size: 100px;
+  font-weight: bold;
+  margin: 10px 20px;
+  color: white;
+  background: purple;
+  transition: 0.5s;
+}
+
 #section-6 {
   display: flex;
   justify-content: space-around;
