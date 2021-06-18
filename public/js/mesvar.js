@@ -24,6 +24,7 @@ let modal =document.getElementById("modal");
 //mes bouttons  pour inscription
 
 
+let txtCarousel = Array.from(document.getElementsByClassName("txtCarousel"));
 
 
 
@@ -33,4 +34,7 @@ let modal =document.getElementById("modal");
 
 
 
-export {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container};
+
+
+
+export {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container,txtCarousel};

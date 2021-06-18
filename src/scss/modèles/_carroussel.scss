@@ -1,21 +1,20 @@
 #car{
     width: 100%;
-    margin: 2%;
+    margin-top: 2%;
+    margin-bottom: 2%;
     overflow: hidden;
-
-  
 };
 #titreu{
-    width: 90%;
-    margin: 10px auto;
-    background: teal;
-    font-weight: bold;
-    color:white;
+    width: 100%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
 };
 
 #sec{
-    width: 90%;
-    background-color: wheat;
+    width: 95%;
     margin: 10px auto;
     display: flex;
     justify-content: left;
@@ -29,12 +28,11 @@
 #div-boule{
     height: 50px;
     text-align: center;
-
     .boule{
         border-radius: 50%;
         height: 20px;
         width: 20px;
-        margin: 2%;
+        margin: 1%;
     };
 
 };
@@ -42,18 +40,38 @@
 #sec{
 
     .div-image{
-        min-width: 330px;
+        min-width: 260px;
         // height: 220px;
         // position: relative;
         left:0;
         text-align: center;
-        padding-top: 60px;
         font-size: 100px;
         font-weight: bold;
         margin: 10px 20px;
         color: white;
-        background: purple;
         transition: 0.5s;
     };
 };
 
+.imgCarousel{
+    width: 260px;
+}
+.txtCarousel{
+    width: 260px;
+    font-size: 20px;
+    color:black;
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+.txtCarousel2{
+    width: 260px;
+    font-size: 15px;
+    color: rgba(223,67,64,255);
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+}
+.spanCarousel{
+    color: gray;
+    text-decoration: line-through;
+}

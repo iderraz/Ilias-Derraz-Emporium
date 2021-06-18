@@ -1,4 +1,4 @@
-import {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container} from './mesvar.js';
+import {maNav,titreEmporium,ligne,section2,empsec2,monbody,mesp,mespp,recents,darkmode,lightSide,open,modal,close,modal_container,txtCarousel} from './mesvar.js';
 
 
 //Mon DarkSide//
@@ -18,6 +18,9 @@ darkmode.addEventListener("click", () =>{
         element.style.color = "white";
     });
     recents.style.color ="white";
+    txtCarousel.forEach(element => {
+        element.style.color = "white";
+    });
 });
 //Mon DarkSide//
 
@@ -38,7 +41,11 @@ lightSide.addEventListener("click", () =>{
         element.style.color = "black";
     });
     recents.style.color ="black";
+    txtCarousel.forEach(element => {
+        element.style.color = "black";
+    });
 });
+
 //mon LightSide
 
 //mon Scroll changement//
