@@ -6351,12 +6351,16 @@ body {
   justify-content: center;
 }
 #gallerie .div-gall .div-img-gall {
+  position: relative;
+  overflow: hidden;
+  transition: 0.5s;
   width: 15%;
   margin: 2%;
 }
 #gallerie .div-gall .div-img-gall div img {
   height: 25vh;
-  width: 90%;
+  width: 100%;
+  object-fit: cover;
 }
 #gallerie .div-gall .div-img-gall .para-gallS {
   text-align: center;
@@ -6366,6 +6370,42 @@ body {
   color: red;
   text-align: center;
   font-size: 120%;
+}
+#gallerie .div-gall .div-img-gall .img-box {
+  position: relative;
+}
+#gallerie .div-gall .div-img-gall .double {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  bottom: 105px;
+  height: 30px;
+  animation-name: blabla;
+  animation-duration: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: 1;
+  display: none;
+}
+#gallerie .div-gall .div-img-gall .double #rouga {
+  background-color: red;
+  height: 30px;
+  width: 100%;
+}
+#gallerie .div-gall .div-img-gall .double #blacka {
+  background-color: black;
+  height: 30px;
+  width: 100%;
+}
+#gallerie .div-gall .div-img-gall .img-box {
+  position: relative;
+}
+@keyframes blabla {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 #gallerie .div-gall .div-img-gall .sale-border-div {
   display: flex;
@@ -6393,6 +6433,10 @@ body {
 #gallerie .div-gall .div-img-gall .sale-border-div .price-div .textBarre {
   text-decoration: line-through;
   color: grey;
+}
+#gallerie .div-gall .div-img-gall:hover {
+  z-index: 1;
+  transform: scale(1.25);
 }
 
 @media (min-width: 320px) and (max-width: 640px) {
