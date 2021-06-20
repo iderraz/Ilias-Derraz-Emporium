@@ -5,9 +5,17 @@
         font-family: 'Poppins', sans-serif;
         font-size: 120%;
     };
+
+
     .div-gall{
         display: flex;
         justify-content: center;
+    .div-img-gall:hover{
+
+    .double{
+                opacity: 1;
+            };
+        };
 
     .div-img-gall{
         position: relative;
@@ -15,6 +23,43 @@
         transition: 0.5s;
         width: 15%;  
         margin: 2%;
+
+        .double{
+            display: flex;
+            position: absolute;
+            justify-content: center;
+            align-items: center;
+            bottom: 36%;
+            width: 100%;
+            z-index: 2;
+            opacity: 0;
+            transition: 0.5s ease-in;
+            
+
+            #rouga{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 3rem;
+                width: 10rem;
+                background-color: black;
+                opacity: 0.75;
+                color: white;
+                text-align: center;
+                font-size: 85%;
+            };
+            #blacka{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 3rem;
+                width: 10rem;
+                background-color: tomato;
+                opacity: 0.75;
+                text-align: center;
+                font-size: 85%; 
+            };
+        };
 
 
         div{
@@ -34,77 +79,9 @@
             text-align: center;
             font-size: 120%;
         };
-        .img-box{
-            position: relative;
-            // transition: 0.5s;
-            // width: 100%;
-            // left: 0;
-            // top: 0;
-            // height: 100%;
-            
-        };
-
-        // .img-box:before{
-        //     content:"#rouga";
-        //     position: absolute;
-        //     left: 0;
-        //     bottom: 0;
-        //     width: 100%;
-        //     transition: 1s;
-        //     background-color: red;
-        //     height: 0;
+        // .img-box{
+        //     position: relative;
         // };
-        // .img-box:hover::before{
-
-        //     width: 100%;
-        //     height: 40px;
-        //     display: block;
-        // }
-            .double{
-                position: absolute;
-                width: 100%;
-                display: flex;
-                bottom: 105px;
-                height: 30px;
-                animation-name: blabla;
-                animation-duration: 1s;
-                animation-timing-function: ease-in;
-                animation-iteration-count: 1;
-                display: none;
-                
-
-                
-                #rouga{
-                    background-color: red;
-                    height: 30px;
-                    width: 100%;
-
-                };
-                #blacka{
-                    background-color: black;
-                    height: 30px;
-                    width: 100%;
-                };
-            };
-            .img-box{
-                position: relative;
-            };
-
-            @keyframes blabla{
-                from{
-                    opacity: 0;
-
-                }
-                to{
-                    opacity: 1;
-                    
-                };
-            };
-
-
-
-
-
 
 
         .sale-border-div{
@@ -118,12 +95,13 @@
             width: 65px;
             text-align:center;
             padding-top: 10%;
-            margin-right: 4%;
+            margin-right: 5%;
             color: white;
 
         }
 
         .price-div{
+
 
         p{
                 max-width: 25%;
@@ -141,10 +119,13 @@
     };
     
     };
-    .div-img-gall:hover{
-        z-index: 1;
-        transform: scale(1.25);
-    };
+    // .div-img-gall:hover{
+    //     z-index: 1;
+    //     transform: scale(1.25);
+    //     .double{
+    //         opacity: 1;
+    //     }
+    // };
     };
 };
 
@@ -181,19 +162,19 @@
  
             .price-div{
             p{
-                    font-size: 55%;
+                    font-size: 45%;
                     color: black;
                     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
             };
             .rouge-gall{
                 color: red;
-                font-size: 55%;
+                font-size: 45%;
 
             }
             .textBarre{
                 text-decoration:line-through;
                 color: grey;
-                font-size: 55%;
+                font-size: 45%;
 
                 
             };

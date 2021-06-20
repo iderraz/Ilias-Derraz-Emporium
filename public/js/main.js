@@ -151,19 +151,6 @@ boutton0.addEventListener("click", () =>{
 
 
 //mon zoom
-let divo = Array.from(document.getElementsByClassName("div-img-gall"));
-let double = Array.from(document.getElementsByClassName("double"));
-
-divo.forEach(element => {
-    element.addEventListener("mouseover", () =>{
-        double.forEach(element => {
-            element.style.opacity = "1";
-            element.style.transition = "1s";
-            element.style.display = "block";
-        });
-});
-});
-
 
 
 
