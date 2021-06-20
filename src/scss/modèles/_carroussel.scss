@@ -23,7 +23,7 @@
 
 #sec::-webkit-scrollbar{
     visibility: hidden;
-}
+};
 
 #div-boule{
     height: 50px;
@@ -55,7 +55,7 @@
 
 .imgCarousel{
     width: 260px;
-}
+};
 .txtCarousel{
     width: 330px;
     font-size: 20px;
@@ -63,15 +63,20 @@
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
     font-weight: bolder;
-}
+};
 .txtCarousel2{
     width: 330px;
     font-size: 15px;
     color: rgba(223,67,64,255);
     font-family: 'Poppins', sans-serif;
     margin-top: 10px;
-}
+};
 .spanCarousel{
     color: gray;
     text-decoration: line-through;
-}
+};
+
+
+
+
+

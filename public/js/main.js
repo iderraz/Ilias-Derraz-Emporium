@@ -150,12 +150,7 @@ boutton0.addEventListener("click", () =>{
 // mon carousel
 
 
-//mon zoom
 
-
-
-
-//mon zoom
 
 
 
